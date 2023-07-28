@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Formulário Elaborado</title>
+</head>
+<body>
+
+    <h1 style="color: rgb(0, 0, 0)">Ficha de Contratação</h1>
+    <div style="border: 2px solid rgb(0, 0, 0); width: 600px; padding: 30px;">
+
+    <form>
+        <fieldset class="campo">
+            <legend style="font-size:15px;"><u>Dados Pessoais</u></legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required>
+            <p></p>
+
+        <div class="campo">
+            <label for="endereço">Endereço:</label>
+            <input type="text" name="endereço" id="endereço" required>
+            <p></p>
+
+        <div class="campo">
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade" required>
+            <p></p>
+
+        <div class="campo">
+            <label for="estado">Estado:</label>
+            <select type="select" name="estado" id="estado" required>
+                <option>Selecione</option>
+                <option>São Paulo</option>
+            <select></select><p></p>
+        </fieldset>
+
+        <fieldset style="font-size:15px; margin-top: 15px;">
+            <legend><u>Dados Profissionais</u></legend>
+
+        <div class="campo">
+            <label for="naturezadoCargo">Natureza do Cargo:</label>
+        <div class="campo">
+            <input type="radio" name="gerência" id="gerência">
+            <label for="gerência">Gerência</label>
+            <input type="radio" name="financeiro" id="financeiro">
+            <label for="financeiro">Financeiro</label>
+            <input type="radio" name="recepção" id="recepção">
+            <label for="recepção">Recepção</label>
+            <input type="radio" name="administrativo" id="administrativo">
+            <label for="administrativo">Administrativo</label>
+            <input type="radio" name="juridico" id="juridico">
+            <label for="juridico">Jurídico</label>
+            <p></p>
+
+        <div class="campo">
+            <label for="areadeInteresse">Área de Interesse:</label>
+        <div class="campo">
+            <input type="checkbox" name="computacao" id="computacao">
+            <label for="computacao">Computação</label>
+            <input type="checkbox" name="biologia" id="biologia">
+            <label for="biologia">Biologia</label>
+            <input type="checkbox" name="meioAmbiente" id="meioAmbiente">
+            <label for="meioAmbiente">Meio Ambiente</label>
+            <input type="checkbox" name="engenharia" id="engenharia">
+            <label for="engenharia">Engenharia</label>
+            <input type="checkbox" name="historia" id="historia">
+            <label for="historia">História</label>
+            <p></p>
+
+        <div class="campo">
+            <label for="mini-curriculo">Mini-Curriculo:</label>
+            <textarea row="6" style="width: 26em; height: 8em;" maxlength="1000"></textarea>
+        </fieldset><p></p>
+        
+        <button class="botao" type="submit" onsubmit=""><strong>Enviar</strong></button>
+        <button class="botao" type="submit" onsubmit=""><strong>Limpar</strong></button>
+
+    </form>
+</body>
+
+    
+    
